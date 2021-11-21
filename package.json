@@ -1,0 +1,25 @@
+{
+  "name": "koa_rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon src/index.js",
+    "test": "cross-env NODE_ENV=test jest --runInBand --forceExit --colors"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^4.0.3",
+    "koa-router": "^10.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
+}
